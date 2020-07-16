@@ -1,10 +1,10 @@
-package germinoci.springframework.sfgpetclinic;
+package germinoci.springframwork.sfgpetclinic;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;
 
 @SpringBootTest
-class SfgPetClinicApplicationTests {
+class SfgPetClinicWebApplicationTests {
 
     @Test
     void contextLoads() {
