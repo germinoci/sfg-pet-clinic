@@ -76,5 +76,7 @@
       </plugin>
     </plugins>
   </build>
-
+<scm>
+  <developerConnection>scm:git:git@github.com:germinoci/sfg-pet-clinic.git</developerConnection>
+</scm>
 </project>
