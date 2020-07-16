@@ -2,7 +2,7 @@ package germinoci.springframework.sfgpetclinic.model;
 
 import java.time.LocalDate;
 
-public class Pet {
+public class Pet extends BaseEntity{
 
     private PetType lastName;
     private Owner owner;
