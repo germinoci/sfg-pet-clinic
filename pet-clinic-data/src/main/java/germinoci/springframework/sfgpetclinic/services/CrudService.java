@@ -2,7 +2,7 @@ package germinoci.springframework.sfgpetclinic.services;
 
 import java.util.Set;
 
-public interface CrudInterface<T, ID> {
+public interface CrudService<T, ID> {
 
     Set<T> findAll();
 
