@@ -3,7 +3,9 @@ package germinoci.springframework.sfgpetclinic.services.map;
 import germinoci.springframework.sfgpetclinic.model.Owner;
 import germinoci.springframework.sfgpetclinic.services.OwnerService;
 import java.util.Set;
+import org.springframework.stereotype.Service;
 
+@Service
 public class OwnerServiceMap extends AbstractMapService<Owner, Long> implements OwnerService {
 
     @Override

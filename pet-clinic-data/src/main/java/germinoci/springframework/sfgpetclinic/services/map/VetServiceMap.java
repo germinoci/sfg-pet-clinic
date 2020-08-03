@@ -3,7 +3,9 @@ package germinoci.springframework.sfgpetclinic.services.map;
 import germinoci.springframework.sfgpetclinic.model.Vet;
 import germinoci.springframework.sfgpetclinic.services.VetService;
 import java.util.Set;
+import org.springframework.stereotype.Service;
 
+@Service
 public class VetServiceMap extends AbstractMapService<Vet, Long> implements VetService {
 
     @Override
