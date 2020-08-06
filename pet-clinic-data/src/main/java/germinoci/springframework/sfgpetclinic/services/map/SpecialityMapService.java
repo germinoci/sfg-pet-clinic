@@ -1,10 +1,12 @@
 package germinoci.springframework.sfgpetclinic.services.map;
 
 import germinoci.springframework.sfgpetclinic.model.Speciality;
-import germinoci.springframework.sfgpetclinic.services.SpecialitiesService;
+import germinoci.springframework.sfgpetclinic.services.SpecialityService;
 import java.util.Set;
+import org.springframework.stereotype.Service;
 
-public class SpecialityMapService extends AbstractMapService<Speciality, Long> implements SpecialitiesService {
+@Service
+public class SpecialityMapService extends AbstractMapService<Speciality, Long> implements SpecialityService {
 
     @Override
     public Set<Speciality> findAll() {
