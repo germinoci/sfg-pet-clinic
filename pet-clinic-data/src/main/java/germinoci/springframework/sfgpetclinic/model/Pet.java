@@ -4,16 +4,25 @@ import java.time.LocalDate;
 
 public class Pet extends BaseEntity{
 
-    private PetType lastName;
+    private String name;
+    private PetType petType;
     private Owner owner;
     private LocalDate birthDate;
 
-    public PetType getLastName() {
-        return lastName;
+    public String getName() {
+        return name;
     }
 
-    public void setLastName(PetType lastName) {
-        this.lastName = lastName;
+    public void setName(String name) {
+        this.name = name;
+    }
+
+    public PetType getPetType() {
+        return petType;
+    }
+
+    public void setPetType(PetType petType) {
+        this.petType = petType;
     }
 
     public Owner getOwner() {
